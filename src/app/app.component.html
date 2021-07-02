@@ -49,7 +49,8 @@
         <h1>Web Developer <span class="text-warning">Portfolio</span> </h1>
         <p class="lead my-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eligendi iure minus quam! Et dolor nostrum
-          velit?</p>
+          velit?
+        </p>
         <button class="btn btn-primary btn-lg">Explore the Profile</button>
       </div>
       <img class="img-fluid w-50 d-none d-sm-block" src="assets/images/hello-image.svg" alt="hellow" />
@@ -64,7 +65,8 @@
 
       <div class="input-group get-in-touch-input">
         <input type="text" class="form-control" placeholder="Enter Email">
-        <button class="btn btn-dark btn-lg" type="button">Button</button>
+        <button class="btn btn-dark btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#open-model">Open
+          Model</button>
       </div>
 
     </div>
@@ -230,5 +232,150 @@
     </div>
   </div>
 </section>
+
+<section id="instructors" class="p-5 bg-primary">
+  <div class="container">
+    <h2 class="text-center text-white">Our Services</h2>
+    <p class="lead text-center text-white mb-5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corrupti ex aspernatur similique doloremque illo.
+    </p>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card ng-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">John Doe</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, libero. Iure quisquam
+              vel molestias quod?</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card ng-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/13.jpg" class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">Jane Walker</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, libero. Iure quisquam
+              vel molestias quod?</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card ng-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">Jane Doe</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, libero. Iure quisquam
+              vel molestias quod?</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card ng-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/20.jpg" class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">Jonny Walker</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, libero. Iure quisquam
+              vel molestias quod?</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md">
+        <h2 class="text-center mb-4">Contact Info</h2>
+        <ul class="list-group list-group-flush lead">
+          <li class="list-group-item">
+            <span class="fw-bold">Main Location: </span>50 Main Street, Dallas, TX
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Contact Number: </span>(000) 000 000
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Question/Inquiry: </span>(000) 000 000
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Email: </span>contact@email.com
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="p-5 bg-dark text-white text-center position-relative">
+  <div class="container">
+    <p class="lead">Copyright &copy; 2021 Bootstrap5 Crash</p>
+
+    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+      <i class="bi bi-arrow-up-circle h1"></i>
+    </a>
+  </div>
+
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="open-model" tabindex="-1" aria-labelledby="open-modelLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="open-modelLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Basic Information</p>
+        <form action="">
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">First Name</label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">Last Name</label>
+            <input type="text" class="form-control" id="last-name">
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+
+          <div class="mb-3">
+            <label for="phone-number" class="col-form-label">Phone Number</label>
+            <input type="number" class="form-control" id="phone-number">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <router-outlet></router-outlet>
